@@ -1,0 +1,49 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: url("img/mr-robot-logo-sd.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
+
+.header {
+  background-color: black;
+  opacity: 0.4;
+  height: 40px;
+  color: white;
+  width: 100%;
+}
+  
+  header .container{
+  padding: 63px;
+  margin-top: -15px;
+}
+
+#titre {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 27px;
+  font-size: 130%;
+  font-style: italic;
+}
+
+#section_2{
+  text-align: center;
+  padding-bottom: 400px;
+}
+
+#view {
+  text-align: center;
+  margin-top: 500px;
+}
+
+.site_footer {
+  margin-right: 40px;
+}
+.social_footer>li {
+  display: inline;
+  margin-right: 30px;
+  float: right;
+}
